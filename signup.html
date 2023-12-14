@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./public/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>Sign up page</title>
+  </head>
+  <body>
+    <!-- -------------------------CONTAINER ------------------ -->
+    <section>
+      <div class="container">
+        <div class="individual">
+          <div class="logo">
+            <img src="public/images/logo.png" alt="logo of  the webpage" />
+          </div>
+          <h3 class="header">For Individuals</h3>
+
+          <p class="para">
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+        </div>
+        <!-- -------------------form page---------- -->
+        <form action="#" method="GET">
+          <aside>
+            <div class="form-page">
+              <div class="first">
+                <label>First Name</label>
+                <input type="text" placeholder="First Name" required />
+              </div>
+              <div class="last">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name" required />
+              </div>
+              <div class="gender">
+                <label for="Gender">Gender</label>
+                <select name="Gender" class="Gen">
+                  <option value="Select here">Select here</option>
+                  <option value="male">Male</option>
+                  <option value="female">female</option>
+                </select>
+              </div>
+
+              <div class="date-of-birth">
+                <label for="Date of Birth">Date of Birth</label>
+                <input type="date" class="data-input" />
+              </div>
+              <div class="Weight">
+                <label> Weight (KG)</label>
+                <input
+                  type="text"
+                  placeholder="Enter Weight"
+                  class="input-weight"
+                  required
+                />
+              </div>
+
+              <div class="Height">
+                <label>Height</label>
+                <input
+                  type="text"
+                  placeholder="Enter height here"
+                  class="input-height"
+                  required
+                />
+              </div>
+            </div>
+            <div class="activity-password">
+              <div class="activity-level">
+                <label>Activivty Level</label>
+                <select name="Select here">
+                  <option value="Select here">Select here</option>
+                  <option value="Level 1">Level 1</option>
+                  <option value="Level 2">Level 2</option>
+                  <option value="Level 3">Level 3</option>
+                  <option value="Level 4">Level 4</option>
+                  <option value="Level 5">Level 5</option>
+                </select>
+              </div>
+              <div class="password">
+                <label>password</label>
+                <div class="icon-div">
+                  <input type="password" required />
+                  <img
+                    src="./public/images/form-filled-form-filled-edit-show.png"
+                    alt="eye opener icon"
+                    class="icon"
+                  />
+                </div>
+              </div>
+
+              <!-- -------REGISTER -------- -->
+              <button class="btn">Register</button>
+              <p class="instruction">
+                By clicking Register, you agree to our
+                <a href="#">Terms of Use</a> and our
+                <a href="#">Privacy Policy</a>
+              </p>
+            </div>
+          </aside>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
