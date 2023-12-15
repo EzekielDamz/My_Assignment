@@ -232,6 +232,7 @@ select {
 .password input {
     width: 100%;
 }
+
 /* .Level {
     margin-bottom: 3.5rem;
 } */
@@ -357,35 +358,51 @@ select {
         margin-left: 7.5rem;
         margin-top: 5.06rem;
         margin-bottom: 5rem;
+        }
 
 
-        >.form-page {
+ .form-page {
+     display: flex;
+     flex-direction: column;
+     margin: 1.5rem 1rem;
+ }
+     .first-div,
+     .second-div,
+     .third-div {
+         display: flex;
+         flex-direction: column;
+     }
+
+        .first,
+        .last,
+        .gender,
+        .date-of-birth,
+        .Height,
+        .Weight {
             display: flex;
             flex-direction: column;
-
-            margin: 1.5rem 1rem;
         }
 
-        select {
-            width: 18.4375rem;
-            height: 3rem;
-            flex-shrink: 0;
+    select {
+        width: 18.4375rem;
+        height: 3rem;
+        flex-shrink: 0;
 
-        }
+    }
 
-        /* .Height {
+    /* .Height {
             display: flex;
             flex-direction: column;
             margin-top: -2rem;
 
         } */
 
-        /* .activity-level {
+    /* .activity-level {
             margin: 0 1rem;
             margin-top: -3.06rem;
         } */
 
-        /* .password {
+    /* .password {
             margin: 0 1rem;
             margin-top: -3.96rem;
 
@@ -394,36 +411,22 @@ select {
                 height: 3rem;
                 flex-shrink: 0;
             }
-        } */
-
-        .first,
-        .last,
-        .gender,
-        .date-of-birth,
-        .Height,
-        .Weight {
-            /* display: flex; */
-            /* flex-direction: column; */
-        }
-
-        .first-div,
-        .second-div,
-        .third-div {
-            display: flex;
-            flex-direction: column;
+        }  */
 
 
-        }
 
-        input,
-        .Gen,
-        select {
-            width: 100%;
-            height: 3rem;
 
-        }
 
-        /* 
+    input,
+    .Gen,
+    select {
+        width: 100%;
+        height: 3rem;
+        color: red;
+
+    }
+
+    /* 
         .first input {
             width: 18.4375rem;
             height: 3rem;
@@ -458,11 +461,11 @@ select {
             flex-shrink: 0;
         } */
 
-        /* .icon-div input {
+    /* .icon-div input {
             width: 18.4375rem;
         } */
 
-        /* .icon {
+    /* .icon {
             position: absolute;
 
             margin-top: 1.8rem;
@@ -470,48 +473,46 @@ select {
         } */
 
 
-        .btn {
-            background: var(--cl-green, #2EC4B6);
-            box-shadow: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
-            border: none;
-            cursor: pointer;
-            width: 100%;
+    .btn {
+        background: var(--cl-green, #2EC4B6);
+        box-shadow: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+        border: none;
+        cursor: pointer;
+        width: 100%;
 
-            flex-shrink: 0;
-            height: 3rem;
+        flex-shrink: 0;
+        height: 3rem;
 
-            margin-bottom: 1rem;
-            color: var(--basic-100, #FFF);
-            font-family: "SofiaFont", "Sofia Pro";
-            font-size: 1rem;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            letter-spacing: 0.0125rem;
-        }
-
-        .instruction {
-            color: #000;
-            font-family: "SofiaFont", "Sofia Pro";
-            font-size: 0.875rem;
-            text-align: center;
-            font-size: normal;
-            font-weight: 400;
-            line-height: 1.5625rem;
-            width: 19.75rem;
-            margin-top: 2rem;
-            margin-left: 1rem;
-
-            >:nth-child(1n) {
-                color: var(--cl-green, #2EC4B6);
-                font-weight: 500;
-                font-family: "SofiaFont", "Sofia Pro ";
-                font-size: 0.875rem;
-                line-height: 1.5625rem;
-                text-decoration: underline;
-
-            }
-        }
+        margin-bottom: 1rem;
+        color: var(--basic-100, #FFF);
+        font-family: "SofiaFont", "Sofia Pro";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.0125rem;
     }
 
+    .instruction {
+        color: #000;
+        font-family: "SofiaFont", "Sofia Pro";
+        font-size: 0.875rem;
+        text-align: center;
+        font-size: normal;
+        font-weight: 400;
+        line-height: 1.5625rem;
+        width: 19.75rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+
+        >:nth-child(1n) {
+            color: var(--cl-green, #2EC4B6);
+            font-weight: 500;
+            font-family: "SofiaFont", "Sofia Pro ";
+            font-size: 0.875rem;
+            line-height: 1.5625rem;
+            text-decoration: underline;
+
+        }
+    }
 }
