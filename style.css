@@ -146,6 +146,8 @@ select:focus {
 }
 
 .icon {
+    position: absolute;
+    padding-top: 1.5rem;
     margin-left: -2.5rem;
 }
 
@@ -367,7 +369,7 @@ select {
         display: flex;
         flex-direction: column;
         margin: 1.5rem 1rem;
-        margin-top: 1rem;
+        
     }
 
     .first-div,
@@ -375,7 +377,9 @@ select {
     .third-div {
         display: flex;
         flex-direction: column;
+        padding-top: 1.5rem;
     }
+    
 
     .first,
     .last,
@@ -399,15 +403,19 @@ select {
     .date-of-birth label{
         margin-top: 0.1rem;
     }
-
-    .Weight label{
-        margin-top: 3.9rem;
+.gender label{
+    margin-top: -0.5rem;
+}
     
-    }
 
     input,
     .Gen {
         width: 100%;
+        height: 3rem;
+    }
+
+    .date{
+        width: 67.5%;
         height: 3rem;
     }
 
