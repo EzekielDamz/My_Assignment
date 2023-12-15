@@ -127,18 +127,18 @@ aside {
 
 .activity-level {
     margin-top: 1.88rem;
+}
 
-    >select {
-        margin-top: 1rem;
-        margin-right: 5px;
+select {
+    margin-top: 1rem;
+    margin-right: 5px;
 
 
-    }
+}
 
-    select:focus {
-        border-color: var(--cl-green, #2EC4B6);
-        outline: none;
-    }
+select:focus {
+    border-color: var(--cl-green, #2EC4B6);
+    outline: none;
 }
 
 .icon-div input {
@@ -211,6 +211,7 @@ input:focus {
 .password label {
     padding-top: 1rem;
 }
+
 
 select {
     width: 100%;
@@ -289,6 +290,7 @@ select {
     .container {
         display: flex;
         flex-direction: column;
+
         width: 20.4375rem;
         height: 100%;
         padding-bottom: 4rem;
@@ -314,22 +316,22 @@ select {
         content: "Inspiring wholesome harmony for the mind, body and spirit, for everyone,everywhere.";
         visibility: visible;
         position: absolute;
-        width: 22.4375rem;
-
         color: var(--cl-grey, #737373);
         font-family: "BrownFont", "Brown";
-        margin-left: -12rem;
+        margin-left: -15.7rem;
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
         line-height: 1.5625rem;
         top: 19rem;
+        margin-top: -2.5rem;
     }
 
     .logo img {
         width: 2.4169rem;
         height: 2.5rem;
         flex-shrink: 0;
+        margin-left: -11.5rem;
 
     }
 
@@ -338,7 +340,7 @@ select {
         font-family: "BrownFont", "Brown";
         font-size: 1.875rem;
         font-style: normal;
-
+        margin-left: -11.5rem;
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.05rem;
@@ -355,123 +357,59 @@ select {
         width: 70%;
         height: 62.375rem;
         margin-right: 8.75rem;
-        margin-left: 7.5rem;
-        margin-top: 5.06rem;
+        margin-left: 5.5rem;
+        margin-top: -16.06rem;
         margin-bottom: 5rem;
-        }
-
-
- .form-page {
-     display: flex;
-     flex-direction: column;
-     margin: 1.5rem 1rem;
- }
-     .first-div,
-     .second-div,
-     .third-div {
-         display: flex;
-         flex-direction: column;
-     }
-
-        .first,
-        .last,
-        .gender,
-        .date-of-birth,
-        .Height,
-        .Weight {
-            display: flex;
-            flex-direction: column;
-        }
-
-    select {
-        width: 18.4375rem;
-        height: 3rem;
-        flex-shrink: 0;
-
     }
 
-    /* .Height {
-            display: flex;
-            flex-direction: column;
-            margin-top: -2rem;
 
-        } */
+    .form-page {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 1rem;
+        margin-top: 1rem;
+    }
 
-    /* .activity-level {
-            margin: 0 1rem;
-            margin-top: -3.06rem;
-        } */
+    .first-div,
+    .second-div,
+    .third-div {
+        display: flex;
+        flex-direction: column;
+    }
 
-    /* .password {
-            margin: 0 1rem;
-            margin-top: -3.96rem;
+    .first,
+    .last,
+    .gender,
+    .date-of-birth,
+    .Height,
+    .Weight {
+        display: flex;
+        flex-direction: column;
+    }
 
-            input {
-                width: 18.4375rem;
-                height: 3rem;
-                flex-shrink: 0;
-            }
-        }  */
-
-
-
-
-
-    input,
-    .Gen,
     select {
         width: 100%;
         height: 3rem;
-        color: red;
-
     }
 
-    /* 
-        .first input {
-            width: 18.4375rem;
-            height: 3rem;
-            flex-shrink: 0;
-        }
+    .icon {
+        position: absolute;
+        padding-top: 1.5rem;
+    }
+    .date-of-birth label{
+        margin-top: 0.1rem;
+    }
 
-        .last input {
-            width: 18.4375rem;
-            height: 3rem;
-            flex-shrink: 0;
-        }
+    .Weight label{
+        margin-top: 3.9rem;
+    
+    }
 
-        .date-of-birth input {
-            width: 18.4375rem;
-            height: 3rem;
-            flex-shrink: 0;
-        }
-
-
-
-        .input-weight {
-            width: 100%;
-            background: red;
-            height: 3rem;
-            flex-shrink: 0;
-        }
-
-
-        .Height input {
-            width: 18.4375rem;
-            height: 3rem;
-            flex-shrink: 0;
-        } */
-
-    /* .icon-div input {
-            width: 18.4375rem;
-        } */
-
-    /* .icon {
-            position: absolute;
-
-            margin-top: 1.8rem;
-            cursor: pointer;
-        } */
-
+    input,
+    .Gen {
+        width: 100%;
+        height: 3rem;
+    }
 
     .btn {
         background: var(--cl-green, #2EC4B6);
