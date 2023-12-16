@@ -213,9 +213,7 @@ select {
 .password input {
     width: 100%;
 }
-  .date-of-birth {
-      width: 100%;
-  }
+
 /* .Level {
     margin-bottom: 3.5rem;
 } */
@@ -282,8 +280,6 @@ select {
     }
 
 
-
-
     .para {
         visibility: hidden;
     }
@@ -341,7 +337,7 @@ select {
         margin-top: -16.06rem;
         margin-bottom: 5rem;
 
-    }
+    
 
 
     .form-page {
@@ -397,7 +393,7 @@ select {
         height: 3rem;
     }
 
-
+    
 input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
@@ -410,6 +406,7 @@ input[type="date"] {
     font-style: normal;
 }
 
+    }
 .btn {
     background: var(--cl-green, #2EC4B6);
     box-shadow: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
