@@ -118,6 +118,7 @@ aside {
 .Weight {
     display: flex;
     flex-direction: column;
+    
 }
 
 .gender select:focus {
@@ -135,6 +136,8 @@ select {
 
 
 }
+
+
 
 select:focus {
     border-color: var(--cl-green, #2EC4B6);
@@ -210,7 +213,9 @@ select {
 .password input {
     width: 100%;
 }
-
+  .date-of-birth {
+      width: 100%;
+  }
 /* .Level {
     margin-bottom: 3.5rem;
 } */
@@ -267,7 +272,7 @@ select {
     .container {
         display: flex;
         flex-direction: column;
-        /* width: 20.4375rem; */
+        width: 20.4375rem;
         height: 100%;
         padding-bottom: 4rem;
         align-items: center;
@@ -366,11 +371,7 @@ select {
 
     }
 
-    .last,
-    .Height,
-    .Weight {
-        margin-top: 0.9rem;
-    }
+   
 
     .icon {
         position: absolute;
