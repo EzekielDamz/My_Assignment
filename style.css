@@ -413,7 +413,7 @@ select {
 
     .individual {
         margin-left: 8rem;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
 
     .para::after {
@@ -459,10 +459,10 @@ select {
         box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
         border-radius: 0.375rem;
         align-items: center;
-        width: 100%;
+        width: 70%;
         height: 62.375rem;
-        /* margin-right: 8.75rem; */
-        margin-left: -3.5rem;
+        margin-right: 8.75rem;
+        margin-left: 3.5rem;
         margin-top: -16.06rem;
         margin-bottom: 5rem;
         
