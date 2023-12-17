@@ -429,7 +429,7 @@ select {
         line-height: 1.5625rem;
         top: 19rem;
         margin-top: -2.5rem;
-    
+
     }
 
     .logo img {
@@ -454,18 +454,18 @@ select {
     }
 
     /* ****************FORM CONTAINER******* */
-    aside{
+    aside {
         background: #FFF;
         box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
         border-radius: 0.375rem;
         align-items: center;
-        width: 70%;
+        width: 60%;
         height: 62.375rem;
         margin-right: 8.75rem;
         margin-left: 3.5rem;
         margin-top: -16.06rem;
         margin-bottom: 5rem;
-        
+
 
     }
 
@@ -473,8 +473,8 @@ select {
     .form-page {
         display: flex;
         flex-direction: column;
-        margin: 1.5rem 1rem;
 
+        padding: 0 1.5rem;
     }
 
     .first-div,
@@ -483,7 +483,14 @@ select {
         display: flex;
         flex-direction: column;
         padding-top: 1.5rem;
-    
+        margin-left: 1.88rem;
+        margin-right: 1.88rem;
+
+        >.last,
+        .Weight,
+        .Height {
+            padding-top: 1.5rem;
+        }
     }
 
 
