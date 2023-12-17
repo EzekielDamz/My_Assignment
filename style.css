@@ -394,7 +394,7 @@ select {
 
 /* ****************************RESPONSIVENESS MEDIA QUERY***** */
 
-@media screen and (min-width :375px) and (max-width:767px) {
+@media only screen and (max-width:767px) {
     .container {
         display: flex;
         flex-direction: column;
