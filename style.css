@@ -398,7 +398,7 @@ select {
     .container {
         display: flex;
         flex-direction: column;
-        width: 19.4375rem;
+        width: 20.4375rem;
         height: 100%;
         padding-bottom: 4rem;
         align-items: center;
@@ -422,7 +422,7 @@ select {
         position: absolute;
         color: var(--cl-grey, #737373);
         font-family: "BrownFont", "Brown";
-        margin-left: -12.7rem;
+        margin-left: -15.7rem;
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
@@ -436,7 +436,7 @@ select {
         width: 2.4169rem;
         height: 2.5rem;
         flex-shrink: 0;
-        margin-left: -8.5rem;
+        margin-left: -11.5rem;
 
     }
 
@@ -445,7 +445,7 @@ select {
         font-family: "BrownFont", "Brown";
         font-size: 1.875rem;
         font-style: normal;
-        margin-left: -8.5rem;
+        margin-left: -11.5rem;
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.05rem;
@@ -472,7 +472,7 @@ select {
         display: flex;
         flex-direction: column;
 
-        padding: 0 .5rem;
+        padding: 0 1.5rem;
     }
 
     .first-div,
