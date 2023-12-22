@@ -409,16 +409,19 @@ select {
         visibility: hidden;
     }
 
-    .para::before {
+    .para::after {
         content: "Inspiring wholesome harmony for the mind, body and spirit, for everyone,everywhere.";
         visibility: visible;
+        /* position: absolute; */
         color: var(--cl-grey, #737373);
         font-family: "BrownFont", "Brown";
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
         line-height: 1.5625rem;
-        top: 19rem;
+        top: 50rem;
+        margin-left: -18.5rem;
+    
     }
 
 
@@ -453,7 +456,7 @@ select {
         border-radius: 0.375rem;
         height: 61rem;
         width: 100%;
-        margin-top: -4.06rem;
+        margin-top: 2.06rem;
         margin-bottom: 5rem;
 
         >.form-page {
@@ -480,7 +483,7 @@ select {
         font-family: "BrownFont", "Brown";
         font-size: 1.875rem;
         font-style: normal;
-        margin-left: -11.5rem;
+        /* margin-left: -11.5rem; */
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.05rem;
