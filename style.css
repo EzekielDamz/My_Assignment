@@ -183,7 +183,8 @@ section {
 }
 
 .para {
-    /* display: block; */
+    display: block;
+
     margin-top: 1.2rem;
     color: var(--cl-grey, #737373);
     font-size: 1rem;
@@ -192,6 +193,10 @@ section {
     line-height: 1.5625rem;
     margin-right: 7rem;
     font-style: normal;
+}
+
+.mobile-para {
+    display: none;
 }
 
 aside {
@@ -394,7 +399,7 @@ select {
 
 /* ****************************RESPONSIVENESS MEDIA QUERY***** */
 
-@media (max-width:712px) {
+@media (max-width:767px) {
 
     .container {
         display: flex;
@@ -405,24 +410,38 @@ select {
     }
 
     .para {
+        display: none;
 
-        visibility: hidden;
     }
 
-    .para::after {
-        content: "Inspiring wholesome harmony for the mind, body and spirit, for everyone,everywhere.";
-        visibility: visible;
-        /* position: absolute; */
+    .mobile-para {
+        display: block;
         color: var(--cl-grey, #737373);
         font-family: "BrownFont", "Brown";
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
         line-height: 1.5625rem;
-        top: 50rem;
-        margin-left: -18.5rem;
-    
+        margin-top: 3rem;
     }
+
+    /* .para::after {
+        content: "Inspiring wholesome harmony for the mind, body and spirit, for everyone,everywhere.";
+        visibility: visible;
+        /* position: absolute; */
+
+    /* color: var(--cl-grey, #737373);
+        font-family: "BrownFont", "Brown";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.5625rem; */
+    /* top: 50rem;
+        margin-left: -16.4rem;
+        margin-right: -7rem; */
+    /* } */
+
+
 
 
 
@@ -469,14 +488,14 @@ select {
         margin-right: 1rem;
     }
 
-    .first,
+    /* .first,
     .last,
     .gender,
     .date-of-birth,
     .Weight,
     .Height {
         margin-top: 1.5rem;
-    }
+    } */
 
     .header {
         color: var(--cl-black, #000B0A);
@@ -487,7 +506,7 @@ select {
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.05rem;
-        margin-bottom: -4rem;
+        margin-bottom: -3rem;
 
     }
 
