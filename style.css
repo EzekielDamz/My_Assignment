@@ -205,9 +205,7 @@ aside {
     margin-bottom: 5rem;
 
     >.form-page {
-
         margin: 2.5rem 2.5rem;
-
     }
 
 
@@ -366,7 +364,7 @@ select {
     letter-spacing: 0.0125rem;
     margin-bottom: 2rem;
 
-    &:hover{
+    &:hover {
         transform: scale(1.1);
     }
 }
@@ -423,7 +421,7 @@ select {
         top: 19rem;
     }
 
-         
+
 
     .first-div,
     .second-div,
@@ -457,9 +455,37 @@ select {
         width: 100%;
         margin-top: -4.06rem;
         margin-bottom: 5rem;
+
         >.form-page {
             margin: 2.5rem 2.5rem;
         }
+    }
+
+    .form-page {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .first,
+    .last,
+    .gender,
+    .date-of-birth,
+    .Weight,
+    .Height {
+        margin-top: 1.5rem;
+    }
+
+    .header {
+        color: var(--cl-black, #000B0A);
+        font-family: "BrownFont", "Brown";
+        font-size: 1.875rem;
+        font-style: normal;
+        margin-left: -11.5rem;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.05rem;
+        margin-bottom: -4rem;
+
     }
 
     .date-of-birth {
@@ -467,6 +493,17 @@ select {
         margin-bottom: 1.5rem;
     }
 
+    input[type="date"] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 100%;
+        color: var(--text-headings, #011C34);
+        border: 1px solid var(--cl-gray-3, #F0F0F0);
+        border-radius: 0.125rem;
+        font-family: "SofiaFont", " Sofia pro";
+        font-style: normal;
+    }
 
 
     /* .container {
