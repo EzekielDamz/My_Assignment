@@ -452,7 +452,7 @@ select {
         background: #FFF;
         box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
         border-radius: 0.375rem;
-        height: 59rem;
+        height: 57rem;
         width: 100%;
         margin-top: 2.06rem;
         margin-bottom: 5rem;
@@ -502,6 +502,6 @@ select {
         border-radius: 0.125rem;
         font-family: "SofiaFont", " Sofia pro";
         font-style: normal;
-        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
     }
 }
