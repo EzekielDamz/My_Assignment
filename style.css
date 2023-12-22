@@ -492,6 +492,9 @@ select {
         margin-bottom: 1.5rem;
     }
 
+    .date-of-birth label {
+        margin-top: 1.5rem;
+    }
     input[type="date"] {
         appearance: none;
         -webkit-appearance: none;
@@ -502,6 +505,6 @@ select {
         border-radius: 0.125rem;
         font-family: "SofiaFont", " Sofia pro";
         font-style: normal;
-        margin-top: 1.5rem;
+        
     }
 }
